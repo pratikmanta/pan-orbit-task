@@ -1,0 +1,170 @@
+.wrapper {
+    height: 100%;
+}
+.content-container {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    margin: 15px;;
+    padding: 25px;
+    border-bottom: 2px solid #d1cece;
+}
+.user-avatar { 
+    display: flex;
+    max-height: 10vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.tooltip-container {
+    display: flex;
+    justify-content: center;
+
+}
+.tooltip-card {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    right: -16.7vw;
+    font-family: Quicksand, arial, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .05), 0 0px 40px rgba(0, 0, 0, .08);
+    border-radius: 20px;
+    margin: 20px 0 20px 0;
+    padding: 15px 0 15px 0;
+    background: #ffffff;
+}
+
+.userlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    border-top: 1px solid #afafaf;
+}
+
+.adduser-btn-box {
+    display: flex;
+    justify-content: center; 
+    background-color: #ff3939;
+    align-items: center;
+    padding: 5px;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    width: 30%;
+    flex-grow: 1;
+    height: 3em;
+    border-radius: 50px;
+}
+
+#basic-detail {
+    display: flex;
+    padding-top: 25px;
+}
+
+.section-details {
+    flex-flow: column;
+    width: 100%;
+    padding: 10px;
+    margin: 30px;
+    height: 80%;
+}
+.bottom-box {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.img-username {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.user-details {
+    display: flex;
+    width: 100%;
+    height:5vh;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500px; 
+}
+.text-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.text-wrap-two {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 40%;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    color: rgb(139, 139, 139);
+
+}
+.text-secondary {
+    font-size: 22px;
+    color: rgb(139, 139, 139);
+}
+
+.address-map-details {
+    display: flex;
+    width: 80%;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    height: 100%;
+    padding: 20px;
+    margin-left: 40px;
+    border-left: 1px solid #d1cece;
+
+}
+
+.address-divider {
+    padding: 0 20px 0 20px;
+    color: rgb(139, 139, 139);
+
+}
+
+.address-street {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500px;
+}
+.address-text {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    width: 50%;
+}
+.address-text-two {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+
+
+
+
